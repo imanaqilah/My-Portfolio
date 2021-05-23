@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
+import EmailIcon from '@material-ui/icons/Email';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function LeftMain() {
     return (
@@ -33,6 +35,17 @@ function LeftMain() {
                     <p>A web designer and front-end developer who is passionate about creating clear, efficient and beautiful user interfaces. My coding journey began with a dream to build JARVIS from Iron Man (ambitious, I know :P). I'm currently interested in the entire front-end spectrum and would love to work on projects with positive people.</p>
                 </DescriptionText>
 
+                <ContactContainer>
+                    <ContactLinksSM>
+                        <EmailIcon style={{ marginRight: "5px" }} /><a href="mailto:imanaqilahh@hotmail.com">Email me!</a>
+                        {/* <ul>
+                    <li> <GitHubIcon style={{ color: "white", fontSize: "large" }} />GitHub</li></ul> */}
+                    </ContactLinksSM>
+                    <ContactLinksSM>
+                        <GitHubIcon style={{ marginRight: "5px" }} /><a href="https://github.com/imanaqilah" target="_blank" rel="noreferrer">GitHub</a>
+                    </ContactLinksSM>
+                </ContactContainer>
+
                 <ElementTag>
                     <p>&lt;/p&gt;</p>
                 </ElementTag>
@@ -53,7 +66,7 @@ function LeftMain() {
                 </Breadcrumbs>
             </TextContainer>
 
-            <ElementTag style={{ marginLeft: "2px" }}>
+            <ElementTag style={{ marginLeft: "2px", marginTop: "-2em" }}>
                 <p>&lt;/body&gt;</p>
             </ElementTag>
 
@@ -61,10 +74,16 @@ function LeftMain() {
                 <p>&lt;/html&gt;</p>
             </ElementTag>
 
-            {/* <ContactLinks>
-                <ul>
-                    <li> <GitHubIcon style={{ color: "white", fontSize: "large" }} />GitHub</li></ul>
-            </ContactLinks> */}
+            <ContactContainer>
+                <ContactLinks>
+                    <EmailIcon style={{ marginRight: "5px" }} /><a href="mailto:imanaqilahh@hotmail.com">Email me!</a>
+                    {/* <ul>
+                    <li> <GitHubIcon style={{ color: "white", fontSize: "large" }} />GitHub</li></ul> */}
+                </ContactLinks>
+                <ContactLinks>
+                    <GitHubIcon style={{ marginRight: "5px" }} /><a href="https://github.com/imanaqilah" target="_blank" rel="noreferrer">GitHub</a>
+                </ContactLinks>
+            </ContactContainer>
         </Container>
     )
 }
@@ -81,7 +100,7 @@ height: 100%;
 
 @media (min-width: 993px){
     position: fixed;
-    padding: 20px;
+    // padding: 20px;
 }
 `
 
@@ -144,20 +163,46 @@ margin-bottom: 10px;
 }
 `
 
-// const ContactLinks = styled.div`
-// display: flex;
-// color: white;
-// font-family: 'Gothic A1', sans-serif;
-// font-size: 14px;
-// position: absolute;
-// bottom: 50px;
-// width: 100%;
+const ContactContainer = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;
+color: #fff;
+font-family: 'Gothic A1', sans-serif;
+font-size: 14px;
 
-//     @media (max-width: 992px){
-//     display: none;
-// }
-// `
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
 
+a:hover {
+    text-decoration: underline;
+}
 
+a:active {
+    text-decoration: underline;
+}
+`
 
+const ContactLinksSM = styled.div`
+    @media (min-width: 992px){
+    display: none;
+}
 
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin-top: 20px;
+`
+
+const ContactLinks = styled.div`
+    @media (max-width: 992px){
+    display: none;
+}
+
+display: flex;
+align-items: center;
+padding-left: 50px;
+width: 100%;
+`
