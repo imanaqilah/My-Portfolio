@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+import LeftMain from './components/LeftMain';
+import RightScrollable from './components/RightScrollable';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GridContainer>
+      <LeftMain>
+      </LeftMain>
+      <RightScrollable>
+      </RightScrollable>
+    </GridContainer>
   );
 }
 
 export default App;
+
+const GridContainer = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;
+// height: 100vh;
+padding: 35px;
+justify-items: stretch;
+align-items: stretch;
+
+@media (max-width: 992px) {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+  "left"
+  "right";
+  }
+`
