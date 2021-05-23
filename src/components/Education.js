@@ -54,9 +54,6 @@ function Education() {
                 <GridItemRowContainer>
                     <p>DIPLOMA IN MASS COMMUNICATION</p>
                 </GridItemRowContainer>
-                <GridItemRow2Container>
-                    <p>Public Relations and Event Management</p>
-                </GridItemRow2Container>
             </Container>
 
         </div>
