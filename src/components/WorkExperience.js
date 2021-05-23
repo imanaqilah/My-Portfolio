@@ -21,7 +21,7 @@ function WorkExperience() {
                             Coordinated logistics, finances, venue preparation, planning and execution of events for a range of clients.
                         </li>
                         <li>
-                            Worked closely and attent to start-to-finish details with clients; putting together floor plans, timelines and working agendas for each event as well as assisting with execution of client's marketing/promotional plans.
+                            Worked closely and attend to start-to-finish details with clients; putting together floor plans, timelines and working agendas for each event as well as assisting with execution of client's marketing/promotional plans.
                         </li>
                         <li>
                             Coordinated with various vendors to ensure maximum costs for maximum profitability while adhering to high quality standards.
