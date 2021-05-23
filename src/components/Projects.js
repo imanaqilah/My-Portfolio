@@ -8,7 +8,7 @@ function Projects() {
                 <p>REACTJS</p>
             </Category>
             <Title>
-                <p>Instagram Clone &#38; Redesign</p>
+                <p>Instagram Clone</p>
             </Title>
             <Desc>
                 <p>Learned and implemented most of the React fundamentals with this basic version of Instagram clone where you get to see media uploaded by other users.</p>
