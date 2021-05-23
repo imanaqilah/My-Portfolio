@@ -66,15 +66,8 @@ function LeftMain() {
                 </Breadcrumbs>
             </TextContainer>
 
-            <ElementTag style={{ marginLeft: "2px", marginTop: "-2em" }}>
-                <p>&lt;/body&gt;</p>
-            </ElementTag>
 
-            <ElementTag>
-                <p>&lt;/html&gt;</p>
-            </ElementTag>
-
-            <ContactContainer>
+            <ContactContainer style={{ marginTop: "-1em" }}>
                 <ContactLinks>
                     <EmailIcon style={{ marginRight: "5px" }} /><a href="mailto:imanaqilahh@hotmail.com">Email me!</a>
                     {/* <ul>
@@ -84,6 +77,14 @@ function LeftMain() {
                     <GitHubIcon style={{ marginRight: "5px" }} /><a href="https://github.com/imanaqilah" target="_blank" rel="noreferrer">GitHub</a>
                 </ContactLinks>
             </ContactContainer>
+
+            <ElementTag style={{ marginLeft: "2px", marginTop: "0.5em" }}>
+                <p>&lt;/body&gt;</p>
+            </ElementTag>
+
+            <ElementTag>
+                <p>&lt;/html&gt;</p>
+            </ElementTag>
         </Container>
     )
 }
