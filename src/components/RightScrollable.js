@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SoftwareSkills from './SoftwareSkills';
 import Education from './Education';
 import Projects from './Projects';
-import WorkExperience from './WorkExperience';
+// import WorkExperience from './WorkExperience';
 
 
 function RightScrollable() {
