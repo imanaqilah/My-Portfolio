@@ -24,9 +24,9 @@ function RightScrollable() {
                 <Education />
             </ContentContainer>
 
-            <ContentContainer>
+            {/* <ContentContainer>
                 <WorkExperience />
-            </ContentContainer>
+            </ContentContainer> */}
 
         </Container>
     )
