@@ -60,9 +60,9 @@ function LeftMain() {
                     <li>
                         03 ------ EDUCATION
                     </li>
-                    <li>
+                    {/* <li>
                         04 ------ WORK EXPERIENCE
-                    </li>
+                    </li> */}
                 </Breadcrumbs>
             </TextContainer>
 

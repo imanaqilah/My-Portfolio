@@ -7,6 +7,24 @@ function Education() {
             <h2 style={{ marginBottom: "30px", fontFamily: "Gothic A1, sans-serif" }}>Education</h2>
             <Container>
                 <GridDateContainer>
+                    <p style={{ textAlign: "right" }}>2021</p>
+                </GridDateContainer>
+                <GridLineContainer>
+                    <VerticalLine></VerticalLine>
+                </GridLineContainer>
+                <GridItemContainer>
+                    <p>42 KUALA LUMPUR (Sunway Education Group)</p>
+                </GridItemContainer>
+                <GridItemRowContainer>
+                    <p>26-DAY COMPUTER PROGRAMMING BOOTCAMP</p>
+                </GridItemRowContainer>
+                <GridItemRow2Container>
+                    <p>August Piscine (C Programming)</p>
+                </GridItemRow2Container>
+            </Container>
+
+            <Container>
+                <GridDateContainer>
                     <p>2020 - 2021</p>
                 </GridDateContainer>
                 <GridLineContainer>
@@ -65,7 +83,7 @@ export default Education
 
 const Container = styled.div`
 display: grid;
-grid-template-columns: auto auto 1fr;
+grid-template-columns: 70px auto 1fr;
 grid-template-rows: auto auto auto;
 font-family: 'Gothic A1', sans-serif;
 font-size: 12px;
