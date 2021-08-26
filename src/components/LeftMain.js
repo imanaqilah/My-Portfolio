@@ -32,7 +32,8 @@ function LeftMain() {
                 </ElementTag>
 
                 <DescriptionText>
-                    <p>A web designer and front-end developer who is passionate about creating clear, efficient and beautiful user interfaces. My coding journey began with a dream to build JARVIS from Iron Man (ambitious, I know :P). I'm currently interested in the entire front-end spectrum and would love to work on projects with positive people.</p>
+                    <p>A lifelong learner whom have developed a passion for technology, particularly in creating clear, efficient and beautiful user interfaces. My coding journey began with a dream to build JARVIS from Iron Man (ambitious, I know :P). Having interest in the entire front-end spectrum, I'm currently looking to nurture my tech skills while making significant contribution to society.</p>
+                    {/* <p>A web designer and front-end developer who is passionate about creating clear, efficient and beautiful user interfaces. My coding journey began with a dream to build JARVIS from Iron Man (ambitious, I know :P). I'm currently interested in the entire front-end spectrum and would love to work on projects with positive people.</p> */}
                 </DescriptionText>
 
                 <ContactContainer>
