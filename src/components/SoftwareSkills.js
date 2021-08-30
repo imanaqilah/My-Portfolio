@@ -13,13 +13,6 @@ function SoftwareSkills() {
             </SkillSets>
 
             <SkillScope>
-                <p>&#47;&#47; Back-end Stack</p>
-            </SkillScope>
-            <SkillSets>
-                <p><span style={{ color: "#ee2a62" }}>Python</span>, <span style={{ color: "#1b7eaf" }}>MySQL</span>, <span style={{ color: "#148277" }}>Flask</span>, <span style={{ color: "#bf7c1c" }}>Anaconda</span></p>
-            </SkillSets>
-
-            <SkillScope>
                 <p>&#47;&#47; Wireframe Tools</p>
             </SkillScope>
             <SkillSets>
