@@ -23,14 +23,14 @@ function Education() {
                 </GridItemRow2Container>
             </Container>
 
-            <Container>
+            {/* <Container>
                 <GridDateContainer>
                     <p>2020 - 2021</p>
                 </GridDateContainer>
                 <GridLineContainer>
                     <VerticalLine></VerticalLine>
-                </GridLineContainer>
-                {/* <GridItemContainer>
+                </GridLineContainer> */}
+            {/* <GridItemContainer>
                     <p>NEXT ACADEMY</p>
                 </GridItemContainer>
                 <GridItemRowContainer>
@@ -39,7 +39,7 @@ function Education() {
                 <GridItemRow2Container>
                     <p>Full-Stack Web Development</p>
                 </GridItemRow2Container> */}
-            </Container>
+            {/* </Container> */}
 
             <Container>
                 <GridDateContainer>
