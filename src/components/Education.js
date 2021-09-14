@@ -30,7 +30,7 @@ function Education() {
                 <GridLineContainer>
                     <VerticalLine></VerticalLine>
                 </GridLineContainer>
-                <GridItemContainer>
+                {/* <GridItemContainer>
                     <p>NEXT ACADEMY</p>
                 </GridItemContainer>
                 <GridItemRowContainer>
@@ -38,7 +38,7 @@ function Education() {
                 </GridItemRowContainer>
                 <GridItemRow2Container>
                     <p>Full-Stack Web Development</p>
-                </GridItemRow2Container>
+                </GridItemRow2Container> */}
             </Container>
 
             <Container>
